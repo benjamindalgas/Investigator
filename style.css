@@ -1,14 +1,31 @@
-html, body {
-	padding: 0;
-	margin: 0;
-	overflow: hidden;
-	
-	background: #000000;
-	color: white;
+
+#input{
+    background-color: #3CBC8D;
+    color: white;
 }
 
-html, body, canvas {
-	touch-action: none;
-	touch-action-delay: none;
+#startbutton{
+  font-family: arial;
+  color: blue;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #7cacde;
+  box-shadow: 1px 1px 1px #bee2f9;
+  padding: 10px 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #3866a3;
+  background: #63b8ee;
+  background: linear-gradient(top,  #63b8ee,  #468ccf);
+  background: -ms-linear-gradient(top,  #63b8ee,  #468ccf);
+  background: -webkit-gradient(linear, left top, left bottom, from(#63b8ee), to(#468ccf));
+  background: -moz-linear-gradient(top,  #63b8ee,  #468ccf);
 }
-
+#startbutton{
+  color: blue;
+  background: #468ccf;
+  background: linear-gradient(top,  #468ccf,  #63b8ee);
+  background: -ms-linear-gradient(top,  #468ccf,  #63b8ee);
+  background: -webkit-gradient(linear, left top, left bottom, from(#468ccf), to(#63b8ee));
+  background: -moz-linear-gradient(top,  #468ccf,  #63b8ee);
+}
